@@ -1,6 +1,9 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #f1ffc4;
+    background: linear-gradient(#f1ffc4, #DAB894);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overscroll-behavior: none;
     margin: 0;
 }
 
@@ -15,6 +18,12 @@ h4 {
 p {
     padding: 20px;
     text-align: center;
+}
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
@@ -32,7 +41,9 @@ p {
     align-items: center;
     background-color: #C6E2e9;
     padding: 14px 40px;
-    border-radius: 25px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     border-color: #000000;
     border-width: 5px;
     border-style:groove
